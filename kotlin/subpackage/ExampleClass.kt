@@ -47,3 +47,7 @@ fun myFunction1(x: String, y: Int) {
 
 annotation class AnAnnotation {
 }
+
+fun functionWithParams(x: String, y:Int) {
+  
+}
