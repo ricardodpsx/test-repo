@@ -1,0 +1,21 @@
+.salesCommunityDataReview {
+  margin: 0 0 30px;
+
+  & .salesPersonsList {
+    background-color: #ebf5fc;
+    padding: 30px 40px 10px;
+    overflow: hidden;
+  }
+
+  & .SalesPersonInfo {
+    & > div {
+      margin-right: 10px;
+      width: calc((100% - 20px) / 3);
+      float: left;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.checkboxColumns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  flex-direction: row;
+}
+
+.checkboxColumns div {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.checkboxColumns .column {
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.sectionHeader {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.sectionHeader div label {
+  font-weight: bold;
+}

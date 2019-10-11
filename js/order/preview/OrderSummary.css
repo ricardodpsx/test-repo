@@ -1,0 +1,50 @@
+.orderSummary .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.orderSummary .section {
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.orderSummary .advisory-salesperson-name {
+  padding-top: 20px;
+}
+
+.orderSummary .col {
+  flex: 1;
+}
+
+.orderSummary dl {
+  margin: 0;
+}
+
+.orderSummary dt,
+.orderSummary dd {
+  display: inline-block;
+  margin: 0 0 5px;
+}
+
+.orderSummary dt {
+  width: 180px;
+  flex: 0 0 180px;
+}
+
+.orderSummary dd {
+  font-weight: 700;
+}
+
+.orderSummary .textarea {
+  white-space: pre-wrap;
+}
+.orderSummary .textarea dd {
+  font-weight: normal;
+}
+
+.orderSummary dt::after {
+  content: ':';
+}
