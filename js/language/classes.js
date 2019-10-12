@@ -10,27 +10,27 @@ const p = new Rectangle(); // ReferenceError
 
 
 // unnamed
-let Rectangle = class {
+let Rectangle2 = class {
   constructor(height, width) {
     this.height = height;
     this.width = width;
   }
 };
-console.log(Rectangle.name);
+console.log(Rectangle2.name);
 // output: "Rectangle"
 
 // named
-let Rectangle = class Rectangle2 {
+let Rectangle3 = class Rectangle3 {
   constructor(height, width) {
     this.height = height;
     this.width = width;
   }
 };
-console.log(Rectangle.name);
+console.log(Rectangle3.name);
 
 
 //Prototype method
-class Rectangle {
+class Rectangle4 {
   constructor(height, width) {
     this.height = height;
     this.width = width;
@@ -45,7 +45,7 @@ class Rectangle {
   }
 }
 
-const square = new Rectangle(10, 10);
+const square = new Rectangle4(10, 10);
 
 console.log(square.area); // 100
 

@@ -12,7 +12,7 @@ function myFunction(p1, p2) {
 
 var x = myFunction(4, 3);   // Function is called, return value will end up in x
 
-function myFunction() {
+function myFunction2() {
   var carName = "Volvo";
   // code here CAN use carName
 }
