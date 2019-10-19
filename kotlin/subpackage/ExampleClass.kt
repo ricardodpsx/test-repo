@@ -33,7 +33,7 @@ fun a() {
   }
 }
 
-fun methodWithSixLines() {
+fun methodWithFourLines() {
   println("1")
   println("2")
   println("3")
