@@ -23,6 +23,10 @@ class ExampleClass(val aProperty: Number) {
       max = b
     }
   }
+
+  fun exampleMethod2() {
+    //do nothing
+  }
 }
 
 fun a() {
