@@ -1,4 +1,4 @@
-
+package kotlin.fixtures;
 
 fun functionWith2NestingLevels() {
 val x = 1;
